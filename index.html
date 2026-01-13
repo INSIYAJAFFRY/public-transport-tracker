@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Public Transport Tracker</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&libraries=places"></script>
+</head>
+<body>
+  <h1>Public Transport Tracker</h1>
+  <div>
+    <input id="source" type="text" placeholder="Enter source">
+    <input id="destination" type="text" placeholder="Enter destination">
+    <button onclick="showRoute()">Get Route</button>
+  </div>
+  <div id="map" style="width: 100%; height: 500px;"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
